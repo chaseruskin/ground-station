@@ -3,15 +3,21 @@ Motion 0x01
 Chase Ruskin  
 2022/02/08  
 
+## Introduction and Rationale
+
 The hardware development ecosystem is overdue for an upgrade. A big upgrade.
 
 The software industry is rapidly increasing. Software developers are in demand everywhere. Anyone can go online to a code-hosting website such as Github to retrieve a repository and contribute. Open-source has become increasingly popular and relied on in helping move the world forward. It is a great time to be a writing software, but what about hardware, the very thing that allows software to be written in the first place? Tucked in the corner, there is one particular niche set of languages separated from the "software" world; hardware description languages (HDL).
 
-To write in HDL requires a drastically different form of thinking in comparison to writing in programming languages. Programming languages are _compiled_ into a set of instructions that execute sequentially. HDL does not naturally translate to this logic, rather they are more so a circuit diagram translated into text that becomes _synthesized_ into a series of digital logic gates. Even though HDL does not fall under the domain of "software programming languages", they are similar under one key point:
+## A programming niche: Digital Design
 
-* HDL is a code. One writes text with intent in a formalized style for their thoughts to be translated into some form of output.
+To write in HDL requires a drastically different form of thinking in comparison to writing in a programming language. Programming languages are _compiled_ into a set of instructions that execute sequentially.
 
-This single key point brings HDL development under the branch of engineering coined "software engineering".
+On the other hand, HDL is rather more so a circuit diagram translated into text that becomes _synthesized_ into a series of digital logic gates. Even though HDL does not fall under the domain of "software programming languages", they are similar under a single key point: HDL is code. One writes text with intent in a formalized style for their thoughts to be translated into some form of output.
+
+## Connecting to Software Engineering
+
+The single key point that HDL, like software programming languages, is code, reveals the truth that the HDL ecosytem experiences similar underlying issues as programming languages do. These issues are more broadly related to a practice called "software engineering", so we will bring HDL under this branch.
 
 Software engineering is more than just code development. It also involves testing, updating, installing, managing, improving, assessing, integrating, and delivering. It encapsulates the entire process of taking an idea or design and turning it into a real product. And software engineering is rarely done alone; it takes a team of diversely skilled people to operate under this practice.
 
@@ -30,7 +36,11 @@ As time progresses, developers are wasting their time resolving fragmentation is
 
 Another principle of software engineering is anything that _can_ be automated, _should_ be automated. If you encounter a repetitive or common task in your workflow, it may be time to write a program for your machine to accomplish that task for you in much quicker time. 
 
+## Package managers: A code management solution
+
 Code management can be automated, and therefore _should_ be automated. Software languages have become increasingly good at handling code management through the creation of tools, typically in their own respective languages, known as _package managers_ to help automate and streamline the development process for its users. To name a few, there is go mod for Go, Cargo for Rust, vcpkg for C/C++, npm for JavaScript, pip for Python, and RubyGems for Ruby. What about HDL? One does not write a "program" in HDL to manage packages and files across a codebase. A software language must be used to create such a program; and a good program has yet to exist.
+
+## Qualities for an HDL package manager
 
 There are lots software languages available today, each with their own features and quirks. While many strive to achieve dominance for a developer's preference, languages are like tools in a toolbox. Some are more suited for particular situations than others.
 
