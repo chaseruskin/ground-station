@@ -9,5 +9,6 @@ The motive is to map out thoughts and ideas in a clear and comprehensive manner 
 The papers are organized as _motions_, highlighting that they are proposals open to discussion and review.
 
 # Motions
-[motion 0x02](./motion0x02.md) - Describing Dependencies  
+[motion 0x03](./motion0x03.md) - Describing Dependencies  
+[motion 0x02](./motion0x02.md) - The Role of an HDL Package Manager  
 [motion 0x01](./motion0x01.md) - Introduction and Rationale
