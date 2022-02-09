@@ -9,7 +9,7 @@ The software industry is rapidly increasing. Software developers are in demand e
 
 To write in HDL requires a drastically different form of thinking in comparison to writing in programming languages. Programming languages are _compiled_ into a set of instructions that execute sequentially. HDL does not naturally translate to this logic, rather they are more so a circuit diagram translated into text that becomes _synthesized_ into a series of digital logic gates. Even though HDL does not fall under the domain of "software programming languages", they are similar under one key point:
 
-> HDL is a code. One writes text with intent in a particular style for their thoughts to be translated into some form of output.
+* HDL is a code. One writes text with intent in a formalized style for their thoughts to be translated into some form of output.
 
 This single key point brings HDL development under the branch of engineering coined "software engineering".
 
