@@ -47,6 +47,6 @@ To select the right language for creating a package manager  within the HDL ecos
 - well-designed:
     * usage should be intuitive and reinforce good development practices (KISS, DRY, SRP)
 - simple
-    * easy to pick up and learn, while not overstepping its responsibilities
+    * easy to pick up and learn, and "just work" out-of-the-box
 
  It is time for an HDL package manager to change the game for the hardware development ecosystem.
