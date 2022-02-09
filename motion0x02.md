@@ -4,7 +4,7 @@ Chase Ruskin
 
 ## Describing dependencies
 
-There are some differences between the structure of a typical HDL file than software programming language files. These differences align nicely with the concept of dependencies and graph formations.
+There are some differences between the structure of a typical HDL file and software programming language files. These differences align nicely with the concept of graphs and dependencies.
 
 1. To describe hardware, an entity (or module in verilog) is declared
 
@@ -12,7 +12,7 @@ There are some differences between the structure of a typical HDL file than soft
 
 These entity properties within HDL can be illustrated with a directed acyclic graph.
 
-There are two options for how to handle updating a project's external dependency list: __explicit__ and __implicit__. Regardless of implementation, for an entity to rely/depend on another entity, it must be instantiated and wired accordingly within the source code.
+There are two options for how to handle updating a project's external dependency list: __explicit__ and __implicit__. Regardless of implementation, for an entity to rely/depend on another entity it must be instantiated and wired accordingly within the source code.
 
 - _Explicit_ means there exists a secondary source (perhaps some file) where developers must list what dependencies a current project requires, as well as maintain their source code to actually use that dependency.
 
