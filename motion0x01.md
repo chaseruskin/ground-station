@@ -15,7 +15,7 @@ This single key point brings HDL development under the branch of engineering coi
 
 Software engineering is more than just code development. It also involves testing, updating, installing, managing, improving, assessing, integrating, and delivering. It encapsulates the entire process of taking an idea or design and turning it into a real product. And software engineering is rarely done alone; it takes a team of diversely skilled people to operate under this practice.
 
-A large component of software engineering is code management. Poor code management can have the consequences of introducing fragmentation- where code splits from a single source and becomes difficult to build upon.
+A major component to software engineering is code management. Poor code management can have the consequences of introducing fragmentation- where code splits from a single source and becomes difficult to build upon.
 
 Fragmentation is software engineering's worst enemy. Fragmentation:
 - violates the DRY principle by encouraging developers to copy files across projects
