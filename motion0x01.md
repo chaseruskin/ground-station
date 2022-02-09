@@ -9,7 +9,7 @@ The software industry is rapidly increasing. Software developers are in demand e
 
 To write in HDL requires a drastically different form of thinking in comparison to writing in programming languages. Programming languages are _compiled_ into a set of instructions that execute sequentially. HDL does not naturally translate to this logic, rather they are more so a circuit diagram translated into text that becomes _synthesized_ into a series of digital logic gates. Even though HDL does not fall under the domain of "software programming languages", they are similar under one key point:
 
-> HDL is code. One intently writes text in a particular style to allow their thoughts to be translated into some form of output.
+> HDL is a code. One writes text with intent in a particular style for their thoughts to be translated into some form of output.
 
 This single key point brings HDL development under the branch of engineering coined "software engineering".
 
@@ -28,7 +28,9 @@ Fragmentation is software engineering's worst enemy. Fragmentation:
 
 As time progresses, developers are wasting their time resolving fragmentation issues and not developing.
 
-Software languages have become increasingly good at handling code management through the creation of tools, typically in their own respective languages, known as _package managers_ to help automate and streamline the development process for its users. To name a few, there is go mod for Go, Cargo for Rust, vcpkg for C/C++, npm for JavaScript, pip for Python, and RubyGems for Ruby. What about HDL? One does not write a "program" in HDL to manage packages and files while keeping the codebase unified. A software language must be used to create such program.
+Another principle of software engineering is anything that _can_ be automated, _should_ be automated. If you encounter a repetitive or common task in your workflow, it may be time to write a program for your machine to accomplish that task for you in much quicker time. 
+
+Code management can be automated, and therefore _should_ be automated. Software languages have become increasingly good at handling code management through the creation of tools, typically in their own respective languages, known as _package managers_ to help automate and streamline the development process for its users. To name a few, there is go mod for Go, Cargo for Rust, vcpkg for C/C++, npm for JavaScript, pip for Python, and RubyGems for Ruby. What about HDL? One does not write a "program" in HDL to manage packages and files across a codebase. A software language must be used to create such a program; and a good program has yet to exist.
 
 There are lots software languages available today, each with their own features and quirks. While many strive to achieve dominance for a developer's preference, languages are like tools in a toolbox. Some are more suited for particular situations than others.
 
@@ -42,6 +44,8 @@ To select the right language for creating a package manager  within the HDL ecos
     * solving dependency resolutions and scanning files should be incredibly fast to handle increasing and large-scale codebases
 - secure
     * safe against attempts to exploit the program and the code it manages
+- well-designed:
+    * usage should be intuitive and reinforce good development practices (KISS, DRY, SRP)
 - simple
     * easy to pick up and learn, while not overstepping its responsibilities
 
