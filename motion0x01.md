@@ -1,8 +1,8 @@
 Motion 0x01
-========
+===========
 Chase Ruskin  
 2022/02/08  
-  
+
 The hardware development ecosystem is overdue for an upgrade. A big upgrade.
 
 The software industry is rapidly increasing. Software developers are in demand everywhere. Anyone can go online to a code-hosting website such as Github to retrieve a repository and contribute. Open-source has become increasingly popular and relied on in helping move the world forward. It is a great time to be a writing software, but what about hardware, the very thing that allows software to be written in the first place? Tucked in the corner, there is one particular niche set of languages separated from the "software" world; hardware description languages (HDL).
@@ -40,9 +40,9 @@ To select the right language for creating a package manager  within the HDL ecos
     * support the multiple tasks an HDL developer can do in the various ways: linting, synthesizing, executing internal tools, simulating, timing analysis
 - fast: 
     * solving dependency resolutions and scanning files should be incredibly fast to handle increasing and large-scale codebases
-- simple
-    * easy to pick up and learn, while not overstepping its responsibilities
 - secure
     * safe against attempts to exploit the program and the code it manages
+- simple
+    * easy to pick up and learn, while not overstepping its responsibilities
 
  It is time for an HDL package manager to change the game for the hardware development ecosystem.
