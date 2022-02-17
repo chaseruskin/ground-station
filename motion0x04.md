@@ -45,7 +45,7 @@ v1.0.0, v1.2.0, v1.2.1, when A has an entity say `nor_gate`. Trying to reference
 The solution is that for each installation in the cache, orbit actually performs a one-time analysis through the HDL files and alters the code with a _primary design unit modification_ (PDUM). Since primary design units are technically the API for your code,
 modifying the identifiers will give unique units for each version.
 
-So we have access to calling `nor_gate_v1_0_0`, `nor_gate_v1_2_0`, and `nor_gate_v1_2_1`. This is the tighest bound we can place on a unit since we explicitly specify the 3 version numbers, and we will see shortly that this is not always necessary.
+So we have access to calling entities identified as `nor_gate_v1_0_0`, `nor_gate_v1_2_0`, and `nor_gate_v1_2_1`. This is the tighest bound we can place on a unit since we explicitly specify the 3 version numbers, and we will see shortly that this is not always necessary.
 
 ## Version bounds
 
@@ -93,7 +93,7 @@ You now have project Z that must incorporate X and Y. However, what version shou
 
 Our MVS will build the entire graph, collecting what versions are referenced for each version bound. So for A under project Z's build, we can only choose between v1.2.1 and v1.4.0 for determining A's bound for v1; v1.8.2 is excluded. 
 
-MVS will then select v1.4.0 to use as A's bound for v1, because it is the minimum allowed version from all of A's choices (v1.2.1, v1.4.0, v1.8.2) which is also the maximum of all the constraints. To get a better grasp of MVS, I encourage you to read https://research.swtch.com/vgo-mv.
+MVS will then select v1.4.0 to use as A's bound for v1, because it is the minimum allowed version from all of A's choices (v1.2.1, v1.4.0, v1.8.2) which is also the maximum of all the constraints. To get a better grasp of MVS, I encourage you to read https://research.swtch.com/vgo-mvs.
 
 ### References
 
